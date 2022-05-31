@@ -2244,10 +2244,9 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
-		background-position: center center;
-		background-size: auto 100%;
-		background-repeat: no-repeat;
+		background: #CCE8F4 url("../../images/splashcolors100blur.jpeg");
+		background-position: center;
+		background-size: contain;
 		text-align: center;
 		position: relative;
 		padding: 4em 0;
@@ -2259,9 +2258,8 @@ input, select, textarea {
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 2em;
-			border-style: solid;
+			border-style: double solid;
 			border-width: 0.5em;
-			/*border-color: #ff8400;*/
 			border-color: #f05735;
 		}
 
